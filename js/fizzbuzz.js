@@ -1,11 +1,11 @@
 'use strict';
 
 function fizzbuzz(num){
-  if (num % 3 == 0 && num % 5 == 0){
+  if (num % 3 === 0 && num % 5 === 0){
     return "FizzBuzz"
-  } else if (num % 5 == 0) {
+  } else if (num % 5 === 0) {
     return "Buzz"
-  } else if (num % 3 == 0) {
+  } else if (num % 3 === 0) {
     return "Fizz"
   } else return num
 }
